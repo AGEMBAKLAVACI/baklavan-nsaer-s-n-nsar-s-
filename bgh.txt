@@ -1,0 +1,54 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local eheheheheheehfeuhdufdnjfudfnj = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+
+--Properties:
+
+eheheheheheehfeuhdufdnjfudfnj.Name = "eheheheheheehfeuhdufdnjfudfnj"
+eheheheheheehfeuhdufdnjfudfnj.Parent = game.CoreGui
+eheheheheheehfeuhdufdnjfudfnj.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = eheheheheheehfeuhdufdnjfudfnj
+Frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame.Position = UDim2.new(0.317704111, 0, 0.337378621, 0)
+Frame.Size = UDim2.new(0, 451, 0, 208)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel.Position = UDim2.new(0.230598658, 0, 0.182692304, 0)
+TextLabel.Size = UDim2.new(0, 243, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Kitma Cheats İnject Edildi :)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+UICorner.Parent = TextLabel
+
+UICorner_2.Parent = Frame
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+TextLabel_2.Position = UDim2.new(0.230598658, 0, 0.524038434, 0)
+TextLabel_2.Size = UDim2.new(0, 243, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Kitma Cheats Sucefusly injected"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+UICorner_3.Parent = TextLabel_2
+
+Frame.Visible = true
+
+wait(3)
+
+Frame.Visible = false
+
